@@ -53,7 +53,7 @@ A full-stack system that analyzes GitHub repositories, identifies test failures,
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env   # fill in your credentials
+cp .env .env   # fill in your credentials
 uvicorn app.main:app --reload --port 8000
 ```
 
@@ -68,7 +68,7 @@ npm run dev            # http://localhost:5173
 ### Docker (full stack)
 
 ```bash
-cp .env.example .env   # fill in your credentials
+cp .env .env   # fill in your credentials
 docker-compose up --build
 ```
 
